@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.notrocketscienceapp.MainActivity">
+
+
+    <TextView
+        android:id="@+id/num_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="@string/num_1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cont_1"
+        android:layout_width="369dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="@string/content_1"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14sp" />
+
+    <RadioGroup
+        android:id="@+id/rep_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/ans1"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/reponse_1" />
+
+        <RadioButton
+            android:id="@+id/ans2"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:checked="false"
+            android:text="@string/reponse_2" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:onClick="nextQuestion"
+        android:text="@string/button_next" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="271dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="91dp" />
+
+
+</LinearLayout>

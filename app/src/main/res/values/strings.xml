@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Not Rocket Science App</string>
+    <string name="num_1">Question number 1</string>
+    <string name="content_1">This is the body of the question number 1</string>
+    <string name="reponse_1">this is the first answer</string>
+    <string name="reponse_2">this is the second answer</string>
+    <string name="button_next">Next</string>
+</resources>
